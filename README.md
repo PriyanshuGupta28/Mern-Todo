@@ -50,6 +50,36 @@ npm install
 cd /frontend
 npm install
 
+Access the Application
+Open your browser and visit http://localhost:3000 to access the Mern Todo application.
+
+Backend
+The backend of the Mern Todo application is built using Node.js, Express.js, and MongoDB. It provides RESTful API endpoints for managing workout data.
+
+Backend Technologies
+Node.js
+Express.js
+MongoDB (Mongoose)
+Backend Structure
+server.js: Entry point of the backend server.
+routes/workouts.js: Express router for handling workout-related routes.
+models/Workout.js: Mongoose model for the workout data.
+Frontend
+The frontend of the Mern Todo application is built using React and Ant Design Pro Components. It includes an editable table for displaying workout data and a modal form for adding new workout entries.
+
+Frontend Technologies
+React
+Ant Design Pro Components
+Axios
+Frontend Structure
+src/Components/ModalForm/ModalForm.js: React component for the workout form.
+src/pages/Home/Home.js: React component for the main page displaying workout data.
+Contributing
+Feel free to contribute to this project by opening issues or submitting pull requests. Your contributions are highly appreciated!
+
+License
+This project is licensed under the [Your License Name] License - see the LICENSE file for details.
+
 # Install backend dependencies
 cd backend
 npm start
